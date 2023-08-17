@@ -253,7 +253,14 @@ namada client bond \
 --signing-keys $WALLET \
 --source $VALIDATOR_ALIAS
 ```
-
+- Ağdaki validatorunuze stake mıktarını gösteriyor.
+```
+namada client bonded-stake --validator $VALIDATOR_ALIAS
+```
+- Ağdaki validatorunuze toplam stake mıktarını gösterior (işlemde olanlar dahil. epoch güncellendikçe üsteki kodda yukselme görmelisiniz)
+```
+namada client bonds --validator $VALIDATOR_ALIAS
+```
 ## Node Silme
 ```
 cd $HOME && mkdir $HOME/namada_backup
