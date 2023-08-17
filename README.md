@@ -160,8 +160,7 @@ namada client transfer \
   --source faucet \
   --target $WALLET \
   --token NAM \
-  --amount 1000 \
-  --signer $WALLET
+  --amount 1000
    
  ```
 
