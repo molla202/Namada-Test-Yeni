@@ -177,7 +177,10 @@ namada client init-validator \
 --account-keys $WALLET \
 --unsafe-dont-encrypt
 ```
-
+👉Not:işlemden sonra restart atalım biraz bekleyip öyle devam edelim
+```
+sudo systemctl start namadad
+```
 ##  Faucet alalım
 
 ```
