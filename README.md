@@ -93,14 +93,20 @@ source ~/.bash_profile
 ##  NAMADA Yükle
 ```
 cd $HOME && git clone https://github.com/anoma/namada && cd namada && git checkout $NAMADA_TAG
-make build-release
+make install
 ```
 ```
 cd $HOME && git clone https://github.com/cometbft/cometbft.git && cd cometbft && git checkout $CBFT
 make install
 ```
-
-
+```
+cd $HOME 
+cp $HOME/cometbft/build/cometbft /usr/local/bin/cometbft
+cp "$HOME/namada/target/release/namada" /usr/local/bin/namada
+cp "$HOME/namada/target/release/namadac" /usr/local/bin/namadac
+cp "$HOME/namada/target/release/namadan" /usr/local/bin/namadan
+cp "$HOME/namada/target/release/namadaw" /usr/local/bin/namadaw
+```
 ```
 cometbft version
 namada --version
