@@ -30,7 +30,9 @@ sudo apt install jq build-essential bsdmainutils ncdu gcc git-core chrony liblz4
 ```
 sudo apt install uidmap dbus-user-session protobuf-compiler unzip -y
 ```
-
+```
+apt install nodejs
+```
 ##  Rust & Go & Protobuf yükleme
 
 ```
