@@ -170,12 +170,12 @@ namada client transfer \
 cd $HOME
 namada client init-validator \
 --alias $VALIDATOR_ALIAS \
---source $WALLET \
 --commission-rate 0.05 \
 --max-commission-rate-change 0.01 \
---signer $WALLET \
+--signing-keys $WALLET \
 --gas-amount 100000000 \
 --gas-token NAM \
+--account-keys $WALLET \
 --unsafe-dont-encrypt
 ```
 
