@@ -230,6 +230,30 @@ namada client epoch
 namada client bonded-stake --validator $VALIDATOR_ALIAS
 namada client bonds --validator $VALIDATOR_ALIAS
 ```
+![image](https://github.com/molla202/Namada-Test-Yeni/assets/91562185/989a0597-b740-4466-b9ca-7e4e7338738d)
+
+👉Not: gelelim fasulyenin faydalarına ara ara faucet alıp stake edicez.
+```
+cd $HOME
+namada client transfer \
+    --token NAM \
+    --amount 1000 \
+    --source faucet \
+    --target $VALIDATOR_ALIAS \
+    --signing-keys $WALLET
+```
+👉Not: bakiye 3k gördük alttakiyle 2k stake ettik bele bele aradabir yapalım.
+```
+namada client balance --owner $VALIDATOR_ALIAS --token NAM
+```
+```
+namada client bond \
+--validator $VALIDATOR_ALIAS \
+--amount 2000 \
+--signing-keys $WALLET \
+--source $VALIDATOR_ALIAS
+```
+
 ## Node Silme
 ```
 cd $HOME && mkdir $HOME/namada_backup
