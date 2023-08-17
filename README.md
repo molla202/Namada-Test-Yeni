@@ -187,12 +187,11 @@ sudo systemctl restart namadad
 ```
 cd $HOME
 namada client transfer \
-  --source faucet \
-  --target $WALLET \
-  --token NAM \
-  --amount 1000 \
-  --gas-payer $WALLET \
-  --signing-keys $WALLET
+    --token NAM \
+    --amount 1000 \
+    --source faucet \
+    --target $VALIDATOR_ALIAS \
+    --signing-keys $WALLET
    
  ```
  👉Not: İşlem başına musluktan maksimum 1000 NAM alınabilir, bu nedenle daha fazlasını elde etmek için bunu birden çok kez çalıştırın. bakiye kontrolde bakiye görmelisiniz.
