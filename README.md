@@ -1,5 +1,6 @@
 # Namada Testnet Node Guide
-![opengraph](https://user-images.githubusercontent.com/82613690/225137742-6d599592-9773-45c0-b9b5-09240b082d40.jpg)
+![corenodenamada](https://github.com/molla202/Namada-Test-Yeni/assets/91562185/967edc5f-892a-40d6-a125-1ef6fba3a478)
+
  * [Topluluk kanalımız](https://t.me/corenodechat)<br>
  * [Topluluk Twitter](https://twitter.com/corenodeHQ)<br>
  * [Namada Website](https://www.namada.net/)<br>
