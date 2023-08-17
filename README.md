@@ -20,8 +20,14 @@
 
 ```
 sudo apt update && sudo apt upgrade -y
+```
+```
 sudo apt install curl tar wget clang pkg-config git make libssl-dev libclang-dev libclang-12-dev -y
+```
+```
 sudo apt install jq build-essential bsdmainutils ncdu gcc git-core chrony liblz4-tool -y
+```
+```
 sudo apt install uidmap dbus-user-session protobuf-compiler unzip -y
 ```
 
