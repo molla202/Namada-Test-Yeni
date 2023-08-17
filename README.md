@@ -66,7 +66,12 @@ protoc --version
 ```
 
 ##  Ayarlar
-
+```
+sed -i '/public-testnet/d' "$HOME/.bash_profile"
+sed -i '/NAMADA_TAG/d' "$HOME/.bash_profile"
+sed -i '/WALLET_ADDRESS/d' "$HOME/.bash_profile"
+sed -i '/CBFT/d' "$HOME/.bash_profile"
+```
 ```
 echo "export NAMADA_TAG=v0.21.1" >> ~/.bash_profile
 echo "export CBFT=v0.37.2" >> ~/.bash_profile
