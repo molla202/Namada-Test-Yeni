@@ -203,7 +203,7 @@ namada client epoch
 namada client bond \
 --validator $VALIDATOR_ALIAS \
 --amount 1888 \
---signer $VALIDATOR_ALIAS \
+--signing-keys $WALLET \
 --source $VALIDATOR_ALIAS
   ```
 
