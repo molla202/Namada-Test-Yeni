@@ -180,7 +180,7 @@ namada client init-validator \
 ```
 👉Not:işlemden sonra restart atalım biraz bekleyip öyle devam edelim
 ```
-sudo systemctl start namadad
+sudo systemctl restart namadad
 ```
 ##  Faucet alalım
 
