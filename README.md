@@ -217,7 +217,7 @@ namada client bond \
   ```
 
 ## Validator adreslerini kaydedin
-👉Not: yukarıda ki işlemler bittikten 2 3 epoc sonra altaki işlemi yapın.
+👉Not: yukarıda ki işlemler bittikten 2 3 epoc sonra altaki işlemi yapın. namada client epoch  yine bunla bakıcaz :D
 ```
 RAW_ADDRESS=`cat "$HOME/.local/share/namada/$CHAIN_ID/wallet.toml" | grep "address ="`
 WALLET_ADDRESS=$(echo -e $RAW_ADDRESS | sed 's|.*=||' | sed -e 's/^ "//' | sed -e 's/"$//')
