@@ -195,7 +195,7 @@ namada client transfer \
   --signing-keys $WALLET
    
  ```
- 👉Not: İşlem başına musluktan maksimum 1000 NAM alınabilir, bu nedenle daha fazlasını elde etmek için bunu birden çok kez çalıştırın
+ 👉Not: İşlem başına musluktan maksimum 1000 NAM alınabilir, bu nedenle daha fazlasını elde etmek için bunu birden çok kez çalıştırın. bakiye kontrolde bakiye görmelisiniz.
  
  ##  Bakiyeni kontrol et
  ```
